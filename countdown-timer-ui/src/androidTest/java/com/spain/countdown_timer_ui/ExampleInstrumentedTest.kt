@@ -1,4 +1,4 @@
-package com.spain.countdowntimerui
+package com.spain.countdown_timer_ui
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.spain.countdowntimerui.test", appContext.packageName)
+        assertEquals("com.spain.countdown_timer_ui.test", appContext.packageName)
     }
 }

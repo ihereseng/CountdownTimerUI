@@ -10,6 +10,7 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.spain.countdown_timer_ui.SampleComponent
 import com.spain.countdowntimerui.ui.theme.CountdownTimerUiTheme
 
 class MainActivity : ComponentActivity() {
@@ -24,6 +25,7 @@ class MainActivity : ComponentActivity() {
                 ) {
                     Greeting("Android")
                 }
+                SampleComponent()
             }
         }
     }

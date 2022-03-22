@@ -1,4 +1,4 @@
-package com.spain.countdowntimerui
+package com.spain.countdown_timer_ui
 
 import org.junit.Test
 
